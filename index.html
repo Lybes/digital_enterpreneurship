@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Portofolio mahasiswa: tentang saya, keahlian, pengalaman, dan proyek."
+    />
+    <title>Dzaki Lybes Novma | Portofolio</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="logo" href="#atas">Dzaki Lybes Novma</a>
+        <nav class="nav" aria-label="Navigasi utama">
+          <a href="#tentang">Tentang</a>
+          <a href="#keahlian">Keahlian</a>
+          <a href="#proyek">Proyek</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="atas">
+      <!-- ===== Hero ===== -->
+      <div class="hero">
+        <div class="wrap hero__inner">
+          <div class="hero__text">
+            <h1>Halo, saya Dzaki Lybes Novma.</h1>
+            <p>
+              Mahasiswa Teknologi Informasi yang suka membangun hal-hal kecil
+              yang berguna, dan terus belajar dari setiap proyek.
+            </p>
+            <div class="btns">
+              <a class="btn btn--main" href="#proyek">Lihat proyek</a>
+              <a class="btn" href="#kontak">Hubungi saya</a>
+            </div>
+          </div>
+
+          <figure class="hero__photo">
+            <img
+              src="images/foto.jpg"
+              alt="Foto Dzaki Lybes Novma"
+              width="640"
+              height="800"
+            />
+          </figure>
+        </div>
+      </div>
+
+      <!-- ===== Tentang ===== -->
+      <section id="tentang">
+        <div class="wrap">
+          <h2>Tentang saya</h2>
+          <div class="about">
+            <div class="about__text">
+              <p>
+                Halo! Saya mahasiswa semester 5 di Politeknik Negeri Madiun yang
+                punya ketertarikan besar di bidang Software Development
+                (khususnya Flutter), Internet of Things (IoT), dan riset
+                kendaraan listrik. Berbekal pengalaman magang sebagai Software
+                Developer di Thunderlab.id, saya senang mengubah ide menjadi
+                solusi nyata yang bermanfaat.
+              </p>
+              <p>
+                Di luar kelas, saya aktif memimpin sebagai Wakil Ketua HIMATIF
+                dan Koordinator Divisi Medinfo di Molikom (periode 2026/2027),
+                sambil terus mengasah skill lewat berbagai proyek kolaborasi
+                bareng teman. Saat ini, saya terbuka untuk kesempatan magang
+                guna memperdalam pengalaman industri di dunia teknologi.
+              </p>
+            </div>
+            <ul class="facts">
+              <li>
+                <b>Pendidikan</b>D3 Teknologi Informasi, 2024&ndash;sekarang
+              </li>
+              <li><b>Lokasi</b>Madiun, Jawa Timur</li>
+              <li><b>Status</b>Mahasiswa</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Keahlian & Pengalaman ===== -->
+      <section id="keahlian">
+        <div class="wrap">
+          <h2>Keahlian dan pengalaman</h2>
+
+          <ul class="skills">
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Internet of Things</li>
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Kepemimpinan</li>
+            <li>Kerja tim</li>
+            <li>Public speaking</li>
+          </ul>
+
+          <ol class="timeline">
+            <li>
+              <small>2026/2027</small>
+              <h3>Koordinator Divisi Medinfo, Molikom</h3>
+              <p>
+                Mengelola publikasi digital, identitas visual, serta arus
+                informasi kegiatan riset dan komunitas kendaraan listrik
+                Molikom.
+              </p>
+            </li>
+            <li>
+              <small>2026/2027</small>
+              <h3>Wakil Ketua HIMATIF</h3>
+              <p>
+                Membantu ketua dalam mengoordinasi jalannya program kerja
+                himpunan serta memastikan sinergi antar-divisi berjalan efektif.
+              </p>
+            </li>
+            <li>
+              <small>6-1-2026/30-6-2026</small>
+              <h3>Software Developer Intern, Thunderlab.id</h3>
+              <p>
+                Membuat Aplikasi Vernon Edu & Vernon Edu Mentor, membuat
+                aplikasi POS
+              </p>
+            </li>
+            <li>
+              <small>2024</small>
+              <h3>Mulai kuliah D3 Teknologi Informasi</h3>
+              <p>Politeknik Negeri Madiun.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ===== Proyek =====
+         Ganti href="#kontak" dengan link proyek asli (GitHub / demo) -->
+      <section id="proyek">
+        <div class="wrap">
+          <h2>Proyek</h2>
+          <div class="projects">
+            <article class="card card--wide">
+              <div>
+                <h3>Aplikasi Monitoring ECU Real-time</h3>
+                <p>
+                  Aplikasi Flutter untuk mekanik dan pemilik bengkel yang
+                  menampilkan data kendaraan secara langsung, seperti RPM, TPS,
+                  ECT, dan IAT, dari ECU Juken 5 lewat ESP32. Fitur bawaan ECU
+                  sudah punya live monitoring, tapi aplikasi ini dibuat khusus
+                  untuk monitoring dan bisa menyimpan data tiap sesi.
+                </p>
+              </div>
+              <div class="tags">
+                <span>Flutter</span><span>ESP32</span><span>Socket</span
+                ><span>ECU Juken 5</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Monitoring Prototype Kendaraan Listrik</h3>
+                <p>
+                  Sistem monitoring berbasis ESP32 untuk riset tim Molikom,
+                  memakai sensor tegangan dan hall sensor pada motor BLDC.
+                </p>
+              </div>
+              <div class="tags">
+                <span>IoT</span><span>ESP32</span><span>BLDC</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <div>
+                <h3>Riset Prototype Kendaraan Listrik</h3>
+                <p>
+                  Bersama tim riset Molikom dan dosen, mengembangkan mobil balap
+                  listrik dan motor drag listrik untuk lomba antar kampus
+                  seperti KMLI dan PLN ICE.
+                </p>
+              </div>
+              <div class="tags">
+                <span>Riset</span><span>Kendaraan listrik</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Kontak ===== -->
+      <section id="kontak" class="contact">
+        <div class="wrap">
+          <h2>Mari berbincang.</h2>
+          <p>
+            Punya peluang magang, proyek, atau sekadar ingin berkenalan? Kirim
+            pesan, saya akan membalas secepatnya.
+          </p>
+          <div class="btns">
+            <a class="btn btn--main" href="mailto:dzakilybesn@gmail.com"
+              >dzakilybesn@gmail.com</a
+            >
+            <a
+              class="btn"
+              href="https://www.linkedin.com/in/dzaki-lybes-novma-290120341/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/Lybes"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              class="btn"
+              href="https://www.instagram.com/dzakiilbes"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="wrap">
+        &copy; <span id="year">2026</span> Dzaki Lybes Novma
+      </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
